@@ -1,12 +1,11 @@
 #main {
   font-family: Arial;
-  margin: 30px, 8px;
-  padding: 25px;
+  padding: 35px;
   border-radius: 15px;
-  background: lightgray;
+  background: darkgrey;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 390px) {
   #main {
     margin: 0;
   }
@@ -23,6 +22,7 @@ body {
 
 #img-div {
   border-radius: 20px;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,4 +40,31 @@ body {
 
 #img-caption {
   padding: 10px;
+}
+
+#tribute-info {
+  margin: 25px;
+  background-color: lightgray;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: left;
+  justify-content: center;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+#tribute-info ul {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+
+}
+
+#timeline {
+  display: flex;
+  justify-content: center;
 }
