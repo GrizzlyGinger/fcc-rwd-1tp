@@ -1,21 +1,11 @@
+body {
+  background: rgb(42,39,88);
+}
+
 main {
   font-family: "Trebuchet MS";
   border-radius: 2px;
-  width: 100%;
   text-align: center;
-  justify-content: center;
-  background: rgb(42,39,88);
-}
-
-@media (max-width: 390px) {
-  main {
-    margin: 0;
-  }
-}
-
-body {
-  width: 100%;
-  background: rgb(42,39,88);
 }
 
 h1 {
@@ -47,7 +37,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 390px;
+  min-width: 320px;
 }
 
 .header {
@@ -67,6 +57,7 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 10px;
@@ -76,7 +67,7 @@ h1 {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0, auto;
+  /* margin: 0, auto; */
   border-radius: 4px;
 }
 
@@ -116,4 +107,12 @@ footer {
   padding: 10px;
   border-radius: 2px;
   width: 100%;
+}
+
+@media (max-width: 595px) {
+  header {
+    height: 150px;
+  }
+
+
 }
