@@ -2,6 +2,9 @@ main {
   font-family: "Trebuchet MS";
   border-radius: 2px;
   width: 100%;
+  text-align: center;
+  justify-content: center;
+  background: rgb(42,39,88);
 }
 
 @media (max-width: 390px) {
@@ -11,8 +14,7 @@ main {
 }
 
 body {
-  text-align: center;
-  justify-content: center;
+  width: 100%;
   background: rgb(42,39,88);
 }
 
